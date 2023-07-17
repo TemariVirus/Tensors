@@ -258,9 +258,9 @@ public class Program
 
     public static void Main()
     {
-        var t = Tensor1.MatrixMultiply(Tensor2, axes: (0, 2));
-        Console.WriteLine("Shape: [" + string.Join(", ", t.Shape) + "]");
-        Console.WriteLine(t[3, 2, 1, 3]);
+        //var t = Tensor1.MatrixMultiply(Tensor2, axes: (0, 2));
+        //Console.WriteLine("Shape: [" + string.Join(", ", t.Shape) + "]");
+        //Console.WriteLine(t[3, 2, 1, 3]);
 
         BenchmarkRunner.Run<Program>();
     }
